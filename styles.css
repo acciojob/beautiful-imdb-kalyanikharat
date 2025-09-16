@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Movie Poster Styling */
+.moviePic {
+  height: 400px;
+  width: 270px;
+  opacity: 0.95;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.moviePic:hover {
+  transform: scale(1.05);
+}
+
+/* Movie Description Styling */
+.movieDetail {
+  position: relative;
+  top: 30px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
